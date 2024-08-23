@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Main {
     WebDriver driver;
-    public void launchBrowser(){
+    public  void launchBrowser(){
         System.setProperty("webdriver.chrome.driver",
                 "/Users/moladin/Downloads/chromedriver-mac-arm64/chromedriver");
         driver= new ChromeDriver();
